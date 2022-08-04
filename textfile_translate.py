@@ -39,7 +39,7 @@ import getopt
 # Const
 
 dest_lang = "pt"
-text_block_size = 14000
+text_block_size = 5000
 path = ""
 
 argv = sys.argv[1:]
@@ -53,6 +53,8 @@ except:
 for opt, arg in opts:
     if opt in ['-l']:
         dest_lang = arg
+    if opt in ['-s']:
+        text_block_size = arg
     elif opt in ['-i']:
         path = arg
         path_abs = os.path.abspath(path)

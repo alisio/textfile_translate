@@ -21,6 +21,7 @@ textfile_translate.py [-l <LANGUAGE_CODE>] -i <SRC>
 Options:
 
     -l    Optional. iso639-1 destination language code. Default: pt
+    -s    Optional. Text block size in characters to be translated. This option is due to google api limitations. Default: 5000
     -i    Mandatory. Path to source file, aka, the file to be translated.
 
 
