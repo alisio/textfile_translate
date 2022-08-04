@@ -19,8 +19,9 @@ textfile_translate.py [-l <LANGUAGE_CODE>] -i <SRC>
 ```
 
 Options:
-    -l    iso639-1 destination language code. Default: pt
-    -i    Path to source file, aka, the file to be translated.
+
+    -l    Optional. iso639-1 destination language code. Default: pt
+    -i    Mandatory. Path to source file, aka, the file to be translated.
 
 
 Output:
